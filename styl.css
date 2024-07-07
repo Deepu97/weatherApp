@@ -1,0 +1,71 @@
+.chart{
+   max-width:30rem;
+  background-color: #00faba;
+  
+  margin: auto;
+  border-radius: 2rem;
+  height: 30rem;
+  box-shadow: 2px 2px 4px black, inset 13px 13px 26px #a2eedb;
+
+}
+.inside{
+    display: flex;
+ padding-top: 3rem;
+    justify-content: center;
+}
+.inside #inp{
+   max-width:15rem;
+    height: 3rem;
+    border-radius:0.5rem ;
+    outline: 0;
+    border: none;
+    color: black;
+    font-size:22px;
+    text-align: center;
+    
+}
+#btn{
+    margin-left: 2rem;
+    width:6rem;
+    font-size: 20px;
+    color:cadetblue ;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 2px 1px 12px 1px;
+}
+.temp{
+    text-align: center;
+}
+.flx{
+    display: flex;
+    justify-content: space-around;
+}
+#size{
+    max-width: 4rem;
+    border-radius: 50%;
+}
+#side{
+    display: flex;
+}
+#wind1{
+    margin-left:1rem;
+}
+#first{
+   max-width: 4rem;
+}
+.photo{
+    display: flex;
+}
+.photo h2{
+    margin-left: 1rem;
+}
+.move{
+    margin-top: 4rem;
+}
+input::placeholder{
+    font-size: 22px;
+    text-align: center;
+}
+@media(max-width:414px){
+    
+}
