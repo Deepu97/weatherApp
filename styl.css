@@ -14,7 +14,7 @@
     justify-content: center;
 }
 .inside #inp{
-   max-width:15rem;
+   width:15rem;
     height: 3rem;
     border-radius:0.5rem ;
     outline: 0;
@@ -67,5 +67,7 @@ input::placeholder{
     text-align: center;
 }
 @media(max-width:414px){
-    
+    .inside #inp{
+       width:10rem;
+    }
 }
